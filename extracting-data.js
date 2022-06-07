@@ -5,6 +5,13 @@ const employee = {
   isMale: true,
 };
 
+let isAMale = null;
+if (employee.isMale === true) {
+  isAMale = true;
+} else if (employee.isMale === true) {
+  isAMale = false;
+}
+
 const name = employee.name;
 const email = employee.email;
 const phone = employee.phone;
